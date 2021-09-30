@@ -1,0 +1,11 @@
+li{
+    list-style-type: none;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0px;
+    background-color: #ececec;
+}

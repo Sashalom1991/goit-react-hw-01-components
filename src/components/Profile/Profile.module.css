@@ -1,0 +1,42 @@
+.profile{
+    background-color: #f3f6f9;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+.avatar{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: 800;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-around;
+    padding-inline-start: 0px;
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.stats li:not(:last-child){
+    padding-right: 15px;
+}
+
+.quantity{
+    font-weight: 800;
+}

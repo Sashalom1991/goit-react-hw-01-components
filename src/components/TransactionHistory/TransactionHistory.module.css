@@ -1,0 +1,38 @@
+.transactionHistory{
+    
+    margin: 0 auto;
+    background-color: whitesmoke;
+    box-shadow:  5px 5px 5px -5px rgba(34, 60, 80, 0.6);
+}
+
+.transactionHistory thead {
+    text-transform: uppercase;
+    background-color: #00bcd5;
+    color: white;    
+}
+
+.transactionHistory tbody{
+    color:#afb1b2;
+}
+
+.line{
+    background-color: rgb(250, 250, 250);
+}
+
+.line:nth-child(2n){
+    background-color: rgb(233, 233, 233);
+}
+
+.transactionHistory th {
+    width: 150px;
+    padding: 20px;
+}
+
+
+.transactionHistory td{
+    padding: 10px 20px;
+}
+
+.type{
+    text-transform: capitalize;
+}
